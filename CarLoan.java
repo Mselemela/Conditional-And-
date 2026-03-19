@@ -1,3 +1,4 @@
+// Monthly car loan payment calculator.
 public class CarLoan {
 	public static void main(String[] args) {
     int carLoan = 10000;
@@ -14,11 +15,11 @@ public class CarLoan {
     else {
         int remainingBalance = carLoan - downPayment;
         int months = loanLength * 12;
-        int monthlyBalance = remainingBalance / months // This represents the monthly payment without interest included.
-        
+        int monthlyBalance = remainingBalance / months; // This represents the monthly payment without interest included.
+        int interest = monthlyBalance * interestRate / 100;
+        int monthlyPayment = monthlyBalance + interest;
 
-
-    }
-
+        System.out.println(monthlyPayment);
+        }
     }
 }

@@ -4,7 +4,7 @@ public class Newsfeed {
     String[] favoriteArticles;
 
     public Newsfeed() {
-        String[] favoritArticles = new String[10];
+        favoriteArticles = new String[10];
     }
 
 public void setFavoriteArticle(int favoriteIndex, String newArticle) {

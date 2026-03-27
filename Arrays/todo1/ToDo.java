@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
-class ToDos {
+class ToDo {
     
-    public static void main(String[ args) {
+    public static void main(String[] args) {
 
-        ArraList<String> toDoList = new ArrayList<String>(;
+        ArrayList<String> toDoList = new ArrayList<String>();
             String toDo1 = "Water plants";
 
             String toDo2 = "Take a walk";
@@ -15,6 +15,6 @@ class ToDos {
             toDoList.add(toDo3);
 
             System.out.println(toDoList);
-        )
-    }])
+        
+    }
 }

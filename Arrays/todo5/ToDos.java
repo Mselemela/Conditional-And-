@@ -23,5 +23,14 @@ class ToDos {
         poirotsToDos.add("call all suspects together");
         poirotsToDos.add("reveal the truth of the crime");
 
-        // Remove each to-do 
+        // Remove each to-do
+        sherlocksToDos.remove(0);
+        poirotsToDos.remove(0);
+        sherlocksToDos.remove(0);
+
+    
+      
+    System.out.println(sherlocksToDos.toString() + "\n");
+    System.out.println(poirotsToDos.toString());
+  } 
 }
